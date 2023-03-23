@@ -1,13 +1,17 @@
-import SubHeading from './SubHeading/SubHeading';
-import Newsletter from './Footer/Newsletter';
-import FooterOverlay from './Footer/FooterOverlay';
-import MenuItem from './Menuitem/MenuItem';
-import Navbar from './Navbar/Navbar';
+
+import Navbar from './Navbar';
+import Homepage from './Homepage';
+import Cryptocurrencies from './Cryptocurrencies';
+import CryptoDetails from './CryptoDetails';
+import Exchanges from './Exchanges';
+import News from './News';
+
 
 export {
-  SubHeading,
-  Newsletter,
-  FooterOverlay,
-  MenuItem,
   Navbar,
+  CryptoDetails,
+  Cryptocurrencies,
+  Exchanges,
+  News,
+  Homepage
 };
